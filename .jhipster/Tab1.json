@@ -1,0 +1,28 @@
+{
+  "applications": ["UnoApp"],
+  "changelogDate": "20230508112035",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "tab_1",
+  "fields": [
+    {
+      "fieldName": "col1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "col2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "col3",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Tab1",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
