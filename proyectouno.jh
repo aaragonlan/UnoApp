@@ -1,0 +1,18 @@
+application {
+  config {
+    baseName DosApp,
+    applicationType monolith,
+    packageName es.proyecto.uno,
+    prodDatabaseType mysql,
+    clientFramework react
+  }
+  entities Tab1
+  dto * with mapstruct
+}
+
+entity Tab1 {
+	col1 String,
+	col2 String,
+	col3 String
+}
+service all with serviceClass
