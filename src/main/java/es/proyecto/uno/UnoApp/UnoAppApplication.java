@@ -10,6 +10,7 @@ public class UnoAppApplication {
 		System.out.println("== START ==");
 		SpringApplication.run(UnoAppApplication.class, args);
 		System.out.println("=== START ===");
+		
 	}
 
 }
